@@ -1,9 +1,24 @@
 [
   {
+    "slug": "staying-human-in-an-ai-world",
+    "title": "Staying Human in an AI World",
+    "category": "Life & perspective",
+    "date": "November 7, 2026 · 1 min read",
+    "description": "Finding room for curiosity, connection, and a life of our own as the world keeps getting smarter.",
+    "body": [
+      "Lately, I’ve been thinking about what it means to build a life in a world that keeps getting smarter.",
+      "AI can write, create, explain, and help us do things that once felt out of reach. It’s exciting. It’s also a little unsettling. When so much can happen in seconds, it’s easy to feel like we should always be doing more.",
+      "I’m learning to ask a different question: what do I actually want to make time for?",
+      "Maybe using AI well means spending less time staring at a blank page and more time deciding what I want to say. Getting help with a difficult task, then closing the laptop to have dinner with someone I love. Staying curious without feeling obliged to keep up with every new tool.",
+      "I don’t have a grand answer yet. This blog is a place to think through those questions as they come.",
+      "For now, I’m happy to have a little help getting started—and a reason to keep thinking for myself."
+    ]
+  },
+  {
     "slug": "the-art-of-paying-attention",
     "title": "The art of paying attention",
     "category": "Life & perspective",
-    "date": "Sample post \u00b7 5 min read",
+    "date": "Sample post · 5 min read",
     "description": "A quieter kind of ambition: noticing the small things that make a life feel like your own.",
     "body": [
       "There is a particular kind of clarity that arrives when you stop trying to fill every quiet moment. A walk without headphones. A cup of coffee before the first notification. A conversation with room for a pause.",
@@ -15,7 +30,7 @@
     "slug": "make-room-for-the-unfinished",
     "title": "Make room for the unfinished",
     "category": "Personal growth",
-    "date": "Sample post \u00b7 3 min read",
+    "date": "Sample post · 3 min read",
     "description": "On starting before you feel ready, and letting the work teach you what comes next.",
     "body": [
       "A blank page can feel like an invitation or a test. Sometimes the only difference is whether we give ourselves permission to begin badly.",
@@ -27,7 +42,7 @@
     "slug": "a-place-to-think-out-loud",
     "title": "A place to think out loud",
     "category": "Notes & ideas",
-    "date": "Sample post \u00b7 2 min read",
+    "date": "Sample post · 2 min read",
     "description": "Why keep a little corner of the internet? Because some thoughts deserve more than a passing moment.",
     "body": [
       "A personal website is a place to gather the things that stay with you. Ideas, questions, reading notes, and stories that have not quite found a home anywhere else.",

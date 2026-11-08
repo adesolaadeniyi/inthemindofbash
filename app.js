@@ -17,7 +17,7 @@ async function init() {
   function render() {
     const query = search.value.trim().toLowerCase();
     const filtered = posts.filter(post => (category === 'All' || category === post.category) && `${post.title} ${post.description} ${post.category}`.toLowerCase().includes(query));
-    document.querySelector('#posts').innerHTML = filtered.length ? filtered.map(post => `<a class="post-card" href="post.html?slug=${encodeURIComponent(post.slug)}"><div class="card-art art-${posts.indexOf(post)}" aria-hidden="true"><span></span><i></i></div><div class="card-copy"><div class="eyebrow">${escapeHtml(post.category)}</div><h3>${escapeHtml(post.title)}</h3><p>${escapeHtml(post.description)}</p><div class="card-bottom"><span>${escapeHtml(post.date)}</span><span aria-hidden="true">→</span></div></div></a>`).join('') : '<p class="empty-state">No stories found. Try another search or category.</p>';
+    document.querySelector('#posts').innerHTML = filtered.length ? filtered.map(post => `<a class="post-card" href="post.html?slug=${encodeURIComponent(post.slug)}"><div class="card-art art-${posts.indexOf(post) % 3}" aria-hidden="true"><span></span><i></i></div><div class="card-copy"><div class="eyebrow">${escapeHtml(post.category)}</div><h3>${escapeHtml(post.title)}</h3><p>${escapeHtml(post.description)}</p><div class="card-bottom"><span>${escapeHtml(post.date)}</span><span aria-hidden="true">→</span></div></div></a>`).join('') : '<p class="empty-state">No stories found. Try another search or category.</p>';
   }
   document.querySelectorAll('[data-category]').forEach(button => button.addEventListener('click', () => {
     category = button.dataset.category;
