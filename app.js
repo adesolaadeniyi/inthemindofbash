@@ -1,6 +1,6 @@
 const escapeHtml = value => value.replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
 async function init() {
-  const response = await fetch('posts.json');
+  const response = await fetch('posts.json?v=53a0cbb', { cache: 'no-store' });
   if (!response.ok) throw new Error('Could not load stories');
   const posts = await response.json();
   const article = document.querySelector('#article');
